@@ -9,7 +9,7 @@ function Movies({ id, year, title, summary, poster, genres}){
         <div className="movies_movie">
             <img src={poster} alt={title} title={title} />
             <div className="movie_data">
-                <h3 className="movie_title">{title}</h3>
+                <h3 className="movie_title">title : {title}</h3>
                 <h5 className="movie_year">{year}</h5>
                 <ul className="genres">
                     {genres.map((genre, index) => {
